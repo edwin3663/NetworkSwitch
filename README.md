@@ -34,7 +34,7 @@ Testing:  Used the Vivado signal analyzer to examine the signals sent to and fro
 ### Milestone 2: Initialize the Ethernet controller
 Date Completed: March 13, 2020
 
-Goal: Send packets to the Ethernet controller and count the number received
+Goal: Initialize the Ethernet controller then count packets sent to it to determine if everything is working correctly.
 
 1. Initialize the Ethernet controller by following the steps laid out in the controller's manual
 2. Set the Ethernet controller to promiscous mode to capture any packets
@@ -45,7 +45,7 @@ Testing:  Used wireshark to count the number of packets sent from the host.  Com
 ### Milestone 3: Read a single packet
 Date Completed: March 14, 2020
 
-Goal: Read a single packet store in the Ethernet controller and print it to screen
+Goal: Read a single packet stored in the Ethernet controller and print it to screen
 
 1. Access the Ethernet controller's SRAM to read a packet sent to the controller.
 

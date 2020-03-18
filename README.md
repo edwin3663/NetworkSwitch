@@ -6,9 +6,9 @@ The goal of this project is to learn about computer networking by building an un
 ### Design:
 The network switch I will design will have four ports.  Each port will be capable of 10/100 Mbs speed.
 
-## Hardware:
-1 x Zynq-7000 SoC (ARM Cortex A9 processesor mated with an Artix-7 base FPGA)
-4 x Microchip Stand-Alone 10/100 Ethernet Controllers with SPI Interface
+### Hardware:
+..* 1 x Zynq-7000 SoC (ARM Cortex A9 processesor mated with an Artix-7 base FPGA)
+..* 4 x Microchip Stand-Alone 10/100 Ethernet Controllers with SPI Interface
 
 ### Software:
 Xilinx Vivado 2018.3

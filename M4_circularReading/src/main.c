@@ -1,14 +1,13 @@
 /**
 * @file main.c
 *
-* This file contains code to complete Milestone 3.
+* This file contains code to complete Milestone 4.
 *
-* The goal of this milestone is to read a packet stored inside the NIC100
-* buffer.
+* The goal of this milestone is to continuously read packets and print the
+* contents to the screen.
 *
 * Testing will be to send a packet to the NIC100 then read the packet's data
-* from the NIC100 into a buffer.  The entire packet will be printed out to the
-* console.
+* from the NIC100 into a buffer.  Each packet will be printed to the screen.
 *
 *
 *<pre>
